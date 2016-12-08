@@ -1,11 +1,10 @@
 /**
  * Created by Raodaqi on 2016/12/8.
  */
-var config = require('../lib/config');
-var umeng = require('../lib/umeng');
-config.APPKEY = "";
-config.APP_MASTER_SECRET = "";
-config.INFO = {
+var umeng = require('../index');
+umeng.config.APPKEY = "";
+umeng.config.APP_MASTER_SECRET = "";
+umeng.config.INFO = {
 	'device_tokens': "",
     'type': 'unicast',
     'payload': {'body': {'ticker': 'Hello World',
