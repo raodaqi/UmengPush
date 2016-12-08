@@ -1,0 +1,19 @@
+{
+  "name": "umeng-node-push",
+  "version": "1.0.0",
+  "description": "umeng push sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "umeng",
+    "push"
+  ],
+  "author": "raodaqi",
+  "license": "MIT",
+  "dependencies": {
+    "superagent":"3.1.0",
+    "crypto":"~0.0.3"
+  }
+}
